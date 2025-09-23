@@ -4,11 +4,6 @@
     {
       "src": "index.php",
       "use": "vercel-php"
-    },
-
-        {
-      "src": "index2.php",
-      "use": "vercel-php"
     }
   ],
   "routes": [
