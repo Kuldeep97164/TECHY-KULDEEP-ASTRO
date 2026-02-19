@@ -4,7 +4,7 @@ $mpdUrl = 'https://linearjitp-playback.astro.com.my/dash-wv/linear/' . $get;
 
 $mpdheads = [
   'http' => [
-      'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\r\n",
+      'header' => "User-Agent: Mozilla%2F5.0%20%28Linux%3B%20Android%2010%3B%20MI%209%20Build%2FQKQ1.190825.002%3B%20wv%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Version%2F4.0%20Chrome%2F111.0.5563.58%20Mobile%20Safari%2F537.36\r\n",
       'follow_location' => 1,
       'timeout' => 5
   ]
