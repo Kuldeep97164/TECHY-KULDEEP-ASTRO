@@ -1,10 +1,10 @@
 <?php
 $get = $_GET['get'];
-$mpdUrl = 'https://linearjitp-playback.astro.com.my/dash-wv/linear/jitp-dashisowm/' . $get;
+$mpdUrl = 'https://linearjitp-playback.astro.com.my/dash-wv/linear/' . $get;
 
 $mpdheads = [
   'http' => [
-      'header' => "User-Agent: Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/145.0.0.0 Mobile Safari/537.36\r\n",
+      'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\r\n",
       'follow_location' => 1,
       'timeout' => 5
   ]
