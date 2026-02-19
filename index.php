@@ -1,6 +1,6 @@
 <?php
 $get = $_GET['get'];
-$mpdUrl = 'https://linearjitp-playback.astro.com.my/dash-wv/dashiso/' . $get;
+$mpdUrl = 'https://linearjitp-playback.astro.com.my/dash-wv/linear/' . $get;
 
 $mpdheads = [
   'http' => [
